@@ -1,0 +1,109 @@
+body,html
+{
+    background-color: rgb(0, 0, 0);
+    width: 1200px;
+}
+.background
+{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.most_buy
+{
+    text-align: right;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Cairo", sans-serif;
+}
+.flex
+{
+    display: flex;
+    text-align: right;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 18px;
+    max-width:20% ;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    float: right;
+    margin-bottom: 10px;
+    flex-direction: column;
+
+}
+.elemants
+{
+    text-align: right;
+    margin-right: 10px;
+    float: right;
+    justify-content: center;
+    font-family: "Cairo", sans-serif;
+    height: 550px;
+    flex-direction: column;
+    position: relative;
+
+
+}
+.elemants img
+{
+
+    max-width: 100%;
+    background-color: gray;
+    font-family: "Cairo", sans-serif;
+}
+.N_arb
+{
+
+    color: gray;
+    font-family: "Cairo", sans-serif;
+
+}
+.newP
+{
+
+    font-family: "Cairo", sans-serif;
+    color: gold
+}
+ 
+  .flex:hover {
+    transform: scale(1.02); 
+  } 
+
+
+.buy
+{
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    bottom: 0;
+    font-family: "Cairo", sans-serif;
+    width: 150px;
+    height: 50px;
+    margin-left: 27px;
+}
+
+
+
+.buy button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 190px;
+    height: 40px;
+   
+
+}
+.buy button:hover{
+    background-color: gold;
+    color: black;
+}
