@@ -1,0 +1,30 @@
+/* CartButton.css */
+
+.cart-button {
+    position: fixed;
+    bottom: 20px; /* Positioned at the bottom */
+    right: 20px; /* Positioned at the right */
+    width: 56px; /* Size of the button */
+    height: 56px; /* Size of the button */
+    background-color: gold; /* Gold color */
+    color: white;
+    border: none;
+    border-radius: 50%; /* Circular shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Adjust the cart emoji size */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cart-button:hover {
+    transform: scale(1.1); /* Slightly increase size on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cart-button:active {
+    transform: scale(1); /* Reset scale when clicked */
+  }
+  
