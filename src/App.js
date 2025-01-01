@@ -4,6 +4,7 @@ import ProductItem from './components/ProductItem';
 import Cart from './components/Cart';
 import Notification from './components/Notification';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
