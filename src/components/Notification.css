@@ -1,36 +1,36 @@
 .notification-container {
-    background-color: black;
-    color: white;
+    position: fixed;
+    top: 20px; /* Position at the top */
+    right: 20px; /* Position at the right */
+    background-color: gold;
+    color: black;
     font-family: 'Cairo', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem; /* Smaller font size */
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Small width */
+    z-index: 1000;
     transition: all 0.3s ease-in-out;
-  }
-  
-  .notification-container:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   }
   
   .notification-content {
     font-weight: 500;
-    padding-right: 10px;
   }
   
   .close-notification {
     background: transparent;
     border: none;
-    color: gold;
+    color: black;
     font-size: 1.5rem;
     cursor: pointer;
     transition: color 0.3s ease;
   }
   
   .close-notification:hover {
-    color: #FFD700; /* Gold color on hover */
+    color: darkgoldenrod; /* Darker gold color on hover */
   }
   

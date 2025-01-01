@@ -52,12 +52,11 @@ const App = () => {
         </div>
 
         <button
-          onClick={() => setIsCartOpen(!isCartOpen)}
-          className="fixed bottom-5 right-5 w-14 h-14 bg-yellow-400 text-white rounded-full shadow-lg hover:scale-110 transition-transform duration-300 text-2xl"
-        >
-          🛒
-        </button>
-
+  onClick={() => setIsCartOpen(!isCartOpen)}
+  className="fixed bottom-5 right-5 w-14 h-14 bg-gold text-black rounded-full shadow-lg hover:scale-110 transition-transform duration-300 text-2xl flex justify-center items-center"
+>
+  🛒
+</button>
         <Cart
           items={cartItems}
           total={cartTotal}
