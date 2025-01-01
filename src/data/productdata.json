@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "image": "https://nabtech.ps/wp-content/uploads/2022/11/MOUSE-LOGITECH-G102-LIGHTSYNC-GAMING-RGB33-268x268.jpg",
+      "category": "Mouse",
+      "name": "MOUSE LOGITECH G102 WIRED LIGHTSYNC RGB",
+      "company": "Logitech",
+      "price": 200.00
+    },
+    {
+      "id": 2,
+      "image": "https://nabtech.ps/wp-content/uploads/2024/11/MOUSE-XTRIKE-ME-GW-611-WIRELESS-268x268.jpg",
+      "category": "Mouse",
+      "name": "MOUSE XTRIKE ME GW-611 WIRELESS",
+      "company": "XTRIKE ME",
+      "price": 90.00
+    },
+    {
+      "id": 3,
+      "image": "https://nabtech.ps/wp-content/uploads/2024/11/AIO-COOLER-LOVINGCOOL-LC-240-T-ARGB.jpg",
+      "category": "Computer Parts",
+      "name": "AIO COOLER LOVINGCOOL LC-240-T ARGB",
+      "company": "LOVINGCOOL",
+      "price": 255.00
+    },
+    {
+      "id": 4,
+      "image": "https://nabtech.ps/wp-content/uploads/2024/11/TABLE-MARVO-DE08-268x268.jpg",
+      "category": "طاولات و كراسي الألعاب",
+      "name": "TABLE MARVO DE-08",
+      "company": "MARVO",
+      "price": 400.00
+    },
+    {
+      "id": 5,
+      "image": "https://nabtech.ps/wp-content/uploads/2024/12/MONITOR-GIGABYTE-GS27FC.jpg",
+      "category": "Monitor",
+      "name": "MONITOR GIGABYTE GS27FC",
+      "company": "GIGABYTE",
+      "price": 700.00
+    }
+  ]
+  
