@@ -1,0 +1,36 @@
+.notification-container {
+    background-color: black;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .notification-container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .notification-content {
+    font-weight: 500;
+    padding-right: 10px;
+  }
+  
+  .close-notification {
+    background: transparent;
+    border: none;
+    color: gold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .close-notification:hover {
+    color: #FFD700; /* Gold color on hover */
+  }
+  

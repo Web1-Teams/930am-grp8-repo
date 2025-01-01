@@ -1,31 +1,37 @@
 import React from 'react';
-import CartItem from './CartItem';
+import CartItem from './CartItem'; // Import CartItem component
 
 const Cart = ({ items, total, onRemoveItem, isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed top-5 right-5 w-72 bg-white rounded-lg shadow-lg p-4 text-black z-50">
-      <div className="flex justify-between items-center border-b border-gray-200 pb-2 mb-4">
-        <h2 className="text-lg font-semibold">Shopping Cart</h2>
-        <span className="text-sm">{items.length} items</span>
+    <div className="position-fixed top-0 end-0 p-4 bg-white rounded-3 shadow-lg w-25 z-50">
+      <div className="d-flex justify-content-between align-items-center mb-3">
+        <h5>Shopping Cart</h5>
+        <button className="btn-close" onClick={onClose}></button>
       </div>
       
-      <div className="max-h-72 overflow-y-auto">
-        {items.map((item) => (
-          <CartItem key={item.id} item={item} onRemove={onRemoveItem} />
+      <div className="max-height-50 overflow-auto mb-3">
+        {items.map(item => (
+          <CartItem 
+            key={item.id} 
+            item={item} 
+            onRemove={onRemoveItem} 
+          />
         ))}
       </div>
-      
-      <div className="mt-4 text-right">
-        <div className="mb-2">Total: ₪{total.toFixed(2)}</div>
-        <button
-          className={`px-4 py-2 rounded-lg ${items.length === 0 ? 'bg-gray-300 cursor-not-allowed' : 'bg-yellow-400 hover:bg-yellow-500'} text-white`}
-          disabled={items.length === 0}
-        >
-          Checkout
-        </button>
+
+      <div className="d-flex justify-content-between align-items-center mb-3">
+        <strong>Total:</strong>
+        <span className="text-success">₪{total.toFixed(2)}</span>
       </div>
+
+      <button 
+        className={`btn btn-primary w-100 ${items.length === 0 ? 'disabled' : ''}`}
+        disabled={items.length === 0}
+      >
+        Checkout
+      </button>
     </div>
   );
 };

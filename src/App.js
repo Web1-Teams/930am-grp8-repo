@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import products  from './data/productdata';
-import ProductItem from './components/ProductItem';
-import Cart from './components/Cart';
-import Notification from './components/Notification';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import products from './data/productdata'; // Your products data
+import ProductItem from './components/ProductItem'; // Your ProductItem component
+import Cart from './components/Cart'; // Your Cart component
+import Notification from './components/Notification'; // Your Notification component
+import './App.css'; // Your custom styles
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -34,14 +34,14 @@ const App = () => {
   const cartTotal = cartItems.reduce((sum, item) => sum + item.price, 0);
 
   return (
-    <div className="min-vh-100 bg-dark py-4">
-      <div className="container bg-white rounded-3 shadow-sm p-4">
-        <header className="text-center py-4 border-bottom">
-          <h1 className="text-primary fw-bold mb-2">المنتجات</h1>
-          <p className="text-muted">طريقك الافضل لعالم التكنولوجيا 🔥</p>
+    <div className="min-h-screen bg-black py-8">
+      <div className="nzxt-page">
+        <header className="page-header">
+          <h1>المنتجات</h1>
+          <p>طريقك الافضل لعالم التكنولوجيا 🔥</p>
         </header>
 
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div className="product-grid">
           {products.map(product => (
             <ProductItem 
               key={product.id} 
@@ -53,7 +53,7 @@ const App = () => {
 
         <button
           onClick={() => setIsCartOpen(!isCartOpen)}
-          className="btn btn-warning position-fixed bottom-5 end-5 rounded-circle p-3 shadow-lg"
+          className="fixed bottom-5 right-5 w-14 h-14 bg-yellow-400 text-white rounded-full shadow-lg hover:scale-110 transition-transform duration-300 text-2xl"
         >
           🛒
         </button>
