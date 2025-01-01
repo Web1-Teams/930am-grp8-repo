@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { products } from './data/productdata';
-import ProductItem from './comp/ProductItem';
-import Cart from './comp/Cart';
-import Notification from './comp/Notification';
+import products  from './data/productdata';
+import ProductItem from './components/ProductItem';
+import Cart from './components/Cart';
+import Notification from './components/Notification';
 import './App.css';
 
 const App = () => {
