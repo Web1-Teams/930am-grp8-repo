@@ -5,6 +5,7 @@ import Cart from './components/Cart'; // Your Cart component
 import Notification from './components/Notification'; // Your Notification component
 import './App.css'; // Your custom styles
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap
+import './CartButton.css';
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -51,10 +52,9 @@ const App = () => {
           ))}
         </div>
 
-        <button
+       <button
   onClick={() => setIsCartOpen(!isCartOpen)}
-  className="fixed bottom-5 right-5 w-14 h-14 bg-gold text-black rounded-full shadow-lg hover:scale-110 transition-transform duration-300 text-2xl flex justify-center items-center"
->
+  className="cart-button">
   🛒
 </button>
         <Cart

@@ -1,0 +1,86 @@
+/* CSS styles for the Cart component */
+.cart-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    color: #000;
+    z-index: 1000;
+  }
+  
+  .cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-items {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .cart-item-info {
+    flex-grow: 1;
+  }
+  
+  .remove-item {
+    color: #ff4444;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+  }
+  
+  .cart-footer {
+    margin-top: 1rem;
+    text-align: right;
+  }
+  
+  .checkout-btn {
+    background: gold;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  
+  .checkout-btn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .cart-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: gold;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    animation: slideIn 0.3s ease-out;
+    z-index: 1001;
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
