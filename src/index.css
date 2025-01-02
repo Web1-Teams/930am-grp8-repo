@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: black;
+  --accent-color: #e74c3c;
+  --background-color: black;
+  --text-color: #333;
+  --transition-speed: 0.3s;
+  --new-price-color: gold;
+  --old-price-color: gray;
+}
+
+body {
+  font-family: 'Cairo', 'Arial', sans-serif;
+  background-color: var(--background-color);
+  line-height: 1.6;
+  color: var(--text-color);
+}

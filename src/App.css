@@ -1,0 +1,12 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.most_buy {
+  text-align: right;
+  margin-right: 40px;
+  color: rgb(255, 255, 255);
+  font-family: "Cairo", sans-serif;
+}

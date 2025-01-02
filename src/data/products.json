@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "name": "هاتف ذكي",
+        "EnglishName": "شاشات العرض",
+        "description": "MONITOR AOC C27G4ZXE 280HZ 0.3MS",
+        "oldPrice": 1200,
+        "newPrice": 999,
+        "image": "MONITOR AOC C27G4ZXE 280HZ 0.3MS.jpg",
+        "sold": false,
+        "category": "إلكترونيات"
+    },
+    {
+        "id": 2,
+        "name": "لابتوب",
+        "EnglishName": "كيبورد",
+        "description": "MECHANICAL KEYBOARD KEMOVE K68SE GAMING WIRED",
+        "oldPrice": 2500,
+        "newPrice": 2200,
+        "image": "MECHANICAL KEYBOARD KEMOVE K68SE GAMING WIRED.jpg",
+        "sold": false,
+        "category": "أجهزة الكمبيوتر"
+    },
+    {
+        "id": 3,
+        "name": "سماعات",
+        "EnglishName": "المعالجات",
+        "description": "CPU INTEL i5 14600K TRAY",
+        "oldPrice": 250,
+        "newPrice": 199,
+        "image": "CPU INTEL i5 14600K TRAY.jpeg",
+        "sold": true,
+        "category": "إلكترونيات"
+    },
+    {
+        "id": 4,
+        "name": "ساعة ذكية",
+        "EnglishName": "طاولات و كراسي الألعاب",
+        "description": "CHAIR XTRIKE ME GC-907 RGB",
+        "oldPrice": 800,
+        "newPrice": 700,
+        "image": "CHAIR XTRIKE ME GC-907 RGB.jpg",
+        "sold": false,
+        "category": "الصحة والرياضة"
+    },
+    {
+        "id": 5,
+        "name": "كاميرا",
+        "EnglishName": "المعالجات",
+        "description": "CPU INTEL i7 14700F TRAY",
+        "oldPrice": 3000,
+        "newPrice": 2700,
+        "image": "CPU INTEL i7 14700F TRAY.jpg",
+        "sold": true,
+        "category": "التصوير"
+    },
+    {
+        "id": 6,
+        "name": "ساعة ذكية",
+        "EnglishName": "شاشات العرض",
+        "description": "MONITOR AOC C27G2ZE 240HZ 0.5MS",
+        "oldPrice": 800,
+        "newPrice": 700,
+        "image": "MONITOR AOC C27G2ZE 240HZ 0.5MS.jpg",
+        "sold": false,
+        "category": "الصحة والرياضة"
+    },
+    {
+        "id": 7,
+        "name": "ساعة ذكية",
+        "EnglishName": "وحدات تخزين SSD",
+        "description": "SSD NVME M.2 XPG S50 CORE 1TB GEN4",
+        "oldPrice": 800,
+        "newPrice": 700,
+        "image": "SSD NVME M.2 XPG S50 CORE 1TB GEN4.jpg",
+        "sold": false,
+        "category": "الصحة والرياضة"
+    },
+    {
+        "id": 8,
+        "name": "ساعة ذكية",
+        "EnglishName": "ماوس",
+        "description": "MOUSE STEEL SERIES PRIME MINI",
+        "oldPrice": 800,
+        "newPrice": 700,
+        "image": "MOUSE STEEL SERIES PRIME MINI.jpg",
+        "sold": false,
+        "category": "الصحة والرياضة"
+    },
+    {
+        "id": 9,
+        "name": "ساعة ذكية",
+        "EnglishName": "تبريد المعالج",
+        "description": "AIO COOLER THERMALRIGHT FROZEN WARFRAME LCD 240MM ARGB WHITE",
+        "oldPrice": 800,
+        "newPrice": 700,
+        "image": "AIO COOLER THERMALRIGHT FROZEN WARFRAME LCD 240MM ARGB WHITE.jpg",
+        "sold": false,
+        "category": "الصحة والرياضة"
+    },
+    {
+        "id": 10,
+        "name": "ساعة ذكية",
+        "EnglishName": "سماعات رأس للألعاب",
+        "description": "HEADSET FANTECH AURORA HG29 7.1 SURROUND",
+        "oldPrice": 800,
+        "newPrice": 700,
+        "image": "HEADSET FANTECH AURORA HG29 7.1 SURROUND.jpg",
+        "sold": false,
+        "category": "الصحة والرياضة"
+    },
+    {
+        "id": 11,
+        "name": "ساعة ذكية",
+        "EnglishName": "صناديق الكمبيوتر",
+        "description": "CASE G.TIGER C708 WHITE FAN X6 ARGB",
+        "oldPrice": 800,
+        "newPrice": 700,
+        "image": "./src/images/CASE G.TIGER C708 WHITE FAN X6 ARGB.jpg",
+        "sold": false,
+        "category": "الصحة والرياضة"
+    },
+    {
+        "id": 12,
+        "name": "ساعة ذكية",
+        "EnglishName": "لوحات الام",
+        "description": "MB GIGABYTE H610M H V3 D4",
+        "oldPrice": 800,
+        "newPrice": 700,
+        "image": "MB GIGABYTE H610M H V3 D4.jpg",
+        "sold": false,
+        "category": "الصحة والرياضة"
+    }
+]
