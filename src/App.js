@@ -35,6 +35,7 @@ const App = () => {
   const cartTotal = cartItems.reduce((sum, item) => sum + item.price, 0);
 
   return (
+    
     <div className="min-h-screen bg-black py-8">
       <div className="nzxt-page">
         <header className="page-header">
@@ -73,6 +74,7 @@ const App = () => {
         )}
       </div>
     </div>
+    
   );
 };
 
