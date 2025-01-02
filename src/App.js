@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import products from './data/productdata'; // Your products data
-import ProductItem from './components/ProductItem'; // Your ProductItem component
-import Cart from './components/Cart'; // Your Cart component
-import Notification from './components/Notification'; // Your Notification component
-import './App.css'; // Your custom styles
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap
+import products from './data/productdata'; 
+import ProductItem from './components/ProductItem';
+import Cart from './components/Cart'; 
+import Notification from './components/Notification'; 
+import './App.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './CartButton.css';
 
 const App = () => {

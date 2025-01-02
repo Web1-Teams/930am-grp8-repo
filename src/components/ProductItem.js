@@ -10,8 +10,9 @@ const ProductItem = ({ product, onAddToCart }) => {
           alt={product.name} 
         />
         <div className="card-body">
-          <h3>{product.name}</h3>
           <p className="category">{product.category}</p>
+          <h3>{product.name}</h3>
+          <p className="company">{product.company}</p>
           <p className="price">₪{product.price}</p>
         </div>
         <div className="card-footer text-center">
