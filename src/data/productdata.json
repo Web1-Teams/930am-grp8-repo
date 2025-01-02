@@ -38,6 +38,32 @@
       "name": "MONITOR GIGABYTE GS27FC",
       "company": "GIGABYTE",
       "price": 700.00
+    },
+    {
+      "id": 6,
+      "image": "https://nabtech.ps/wp-content/uploads/2024/10/I5-14600K-TRAY.jpg",
+      "category": "Processors",
+      "name": "CPU INTEL i5 14600K TRAY  ",
+      "company": "INTEL",
+      "price": 1000.00
+    },
+    {
+      "id": 7,
+      "image": "https://nabtech.ps/wp-content/uploads/2024/09/GPU-GIGABYTE-AERO-RTX-4070-12GB-.jpg",
+      "category": "Computer Parts",
+      "name": "GPU GIGABYTE AERO RTX 4070 12GB",
+      "company": "GIGABYTE",
+      "price": 2600.00
+    },
+    {
+      "id": 8,
+      "image": "https://nabtech.ps/wp-content/uploads/2024/06/Meetion-MT-%E2%80%93-HP099-.jpg",
+      "category": "Headphones",
+      "name": "HEADSET MEETION MT HP099 7.1 SURROUND",
+      "company": "GIGABYTE",
+      "price": 150.00
     }
+
+
   ]
   
