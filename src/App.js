@@ -1,6 +1,6 @@
 import React from 'react';
-import Categories from './components/Categories/index.js';
-import HotElements from './components/indexx.js';
+import   Categories from './components/index';
+import HotElements  from './components/indexx'
 import './App.css';
 
 function App() {

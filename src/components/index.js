@@ -1,5 +1,5 @@
 import React from 'react';
-import './Categories.css';
+import './Catagories.css';
 
 const Categories = () => {
   const categories = [

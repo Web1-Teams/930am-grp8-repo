@@ -1,4 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Cairo", sans-serif;
+}
+
+
+h2, h3 {
+  text-align: center;
+  margin-top: 100px;
+  color: black; 
+  font-family: "Cairo", sans-serif;
+}
+
 .nnn {
   background-color: black;
-  margin: 25px;
+  margin: 35px; 
+  
+}
+
+
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top:auto;
+}
+
+
+.categories {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.hot-elements{
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-bottom-left-radius: 20px ;
+  border-bottom-right-radius: 20px ;
+
+}
+
+.category-grid, .hot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  justify-content: start;
+}
+
+
+.category-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-between; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.hot-item{
+  border: 2px solid black;
+  border-radius: 13px;
+  text-align: center;
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-between; 
+  transition: transform 0.3s ease-in-out; 
+  color: gold;
+  
+}
+
+
+.category-item:hover {
+  transform: scale(1.07); 
+}
+
+
+.buy-now {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: "Cairo", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now:hover {
+  background-color: gold;
+  color: black;
+}
+
+
+.original-price {
+  text-decoration: line-through;
+  color:black;
+  font-size: 0.9em;
+  margin-left: 8px;
+}
+
+
+.btn {
+  margin-top: auto;
+  padding: auto;
+  background-color: black;
+  color: #fff;
+  width: 75px;
+  border-radius: 250px;
+  border: none;
+  font-family: "Cairo", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: gold;
+  color: black;
+}
+
+
+.category-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  gap: 10px;
+  height: 100%; 
+}
+
+.category-content h3 {
+  margin: 0;
+  padding: 15px;
+  font-size: 1.2rem;
+  color: black;
+  font-family: "Cairo", sans-serif;
+}
+
+
+.hot-item img {
+  max-width: 85%;
+  border-radius: 10px;
+  border: 1px white;
+}
+
+.hot-item h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+}
+
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  font-family: "Cairo", sans-serif;
+}
+
+hr{
+
+max-width: 100%;
+
 }
