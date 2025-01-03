@@ -1,5 +1,5 @@
 import React from 'react';
-import './hotelements.css';
+import './HotElements.css';
 
 const HotElements = () => {
   const hotItems = [
