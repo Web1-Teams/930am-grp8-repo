@@ -1,0 +1,22 @@
+.hot-elements {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .hot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-content: start;
+  }
+  
+  .hot-item {
+    border: 2px solid black;
+    border-radius: 13px;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    color: gold;
+  }

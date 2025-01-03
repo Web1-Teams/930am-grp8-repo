@@ -1,0 +1,23 @@
+.categories {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-content: start;
+  }
+  
+  .category-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
