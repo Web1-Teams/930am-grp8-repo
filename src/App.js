@@ -1,4 +1,5 @@
 import React from 'react';
+import ProductsSection from './components/ProductsSection';
 import './App.css';
 
 const products = [
