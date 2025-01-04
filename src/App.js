@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import ProductHero from "./components/ProductHero";
+import ProductFeatures from "./components/ProductFeatures";
+import RelatedProducts from "./components/RelatedProducts";
 import "./App.css";
 
 const App = () => {
@@ -21,75 +24,25 @@ const App = () => {
 
     setRating(value);
     setReviews((prevReviews) => prevReviews + 1);
-
     localStorage.setItem("userRated", "true");
     setUserRated(true);
-
     alert(`You rated this product ${value} stars!`);
   };
 
   return (
     <div className="nzxt-page">
-      {/* Hero Section */}
-      <section className="product-hero">
-        <div className="product-image">
-          <img
-            src="https://nabtech.ps/wp-content/uploads/2024/11/MOUSE-XTRIKE-ME-GW-611-WIRELESS-268x268.jpg"
-            width="400"
-            alt="Product"
-          />
-        </div>
-        <div className="product-info">
-          <h2>MOUSE XTRIKE ME GW-611 WIRELESS</h2>
-          <p className="description">
-            Elevate your gaming with precision and style. This ergonomic mouse
-            features advanced wireless technology, durable construction, and
-            customizable RGB lighting to match your unique setup.
-          </p>
-          <div className="rating">
-            {Array.from({ length: 5 }, (_, index) => (
-              <span
-                key={index}
-                className={index < rating ? "star active" : "star"}
-                onClick={() => handleRatingClick(index + 1)}
-              >
-                ⭐
-              </span>
-            ))}
-            <span>({rating}.0, {reviews} Reviews)</span>
-          </div>
-          <p className="price">90.00 ₪</p>
-          <div className="action-buttons">
-            <button
-              className="add-to-cart"
-              data-product-id="1"
-              onClick={() => alert("Product added to cart!")}
-            >
-              Add to Cart
-            </button>
-            <button
-              className="add-to-fav"
-              data-product-id="1"
-              onClick={() => alert("Product added to favorites!")}
-            >
-              Add to Favorites ♥
-            </button>
-          </div>
-        </div>
-      </section>
+      {/* Product Hero Section */}
+      <ProductHero
+        rating={rating}
+        reviews={reviews}
+        onRate={handleRatingClick}
+        userRated={userRated}
+      />
 
       {/* Features Section */}
-      <section className="product-features">
-        <h2>Features</h2>
-        <ul>
-          <li>Advanced wireless technology for lag-free performance.</li>
-          <li>Customizable RGB lighting with multiple profiles.</li>
-          <li>Ergonomic design for extended comfort during intense sessions.</li>
-          <li>Durable construction to withstand hours of gaming.</li>
-        </ul>
-      </section>
+      <ProductFeatures />
 
-      {/* Related Products */}
+      {/* Related Products Section */}
       <section className="related-products">
         <h2>Related Products</h2>
         <div className="related-grid">
