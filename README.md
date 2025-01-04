@@ -75,7 +75,8 @@ http://localhost:3000
 ![frameslide](33_720.png)
 ![sales page](9cae2215-91d4-4da2-b050-ab39185f9353.png)
 ![product-page](img_20250103_175153_334_720.jpg)
-![n](Screenshot2025-01-04175249.png)
+![n](![payment](https://cdn.discordapp.com/attachments/1270134765877465108/1325139991629795399/Screenshot_2025-01-04_175249.png?ex=677ab449&is=677962c9&hm=1c6460f33e2bf5dd3b7a805a0e033aeb425dad8394424db59db986cf70572a3a&)
+)
 ## Trello Board
 
 The Trello board for task management and project tracking is available [here](https://trello.com/invite/b/6756055f998ebfedb6638837/ATTI6821ba73cf456b196e7b84f82a0c98827C1CBC87/web-prog).
