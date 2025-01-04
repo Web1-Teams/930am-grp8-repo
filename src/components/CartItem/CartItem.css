@@ -58,6 +58,7 @@
     background: white;
     cursor: pointer;
     transition: all 0.2s;
+    font-size: 1,1rem;
 }
 
 .quantity-btn:hover {

@@ -7,7 +7,7 @@ const CartSummary = () => {
   const [cartItems, setCartItems] = useState(
     productsData.products.map((product) => ({
       ...product,
-      quantity: 1, // Default initial quantity
+      quantity: 1, 
     }))
   );
 
@@ -26,10 +26,10 @@ const CartSummary = () => {
 
     items.forEach((item) => observer.observe(item));
 
-    return () => observer.disconnect(); // Cleanup observer on component unmount
+    return () => observer.disconnect(); 
   }, []);
 
-  // Function to handle quantity change
+  
   const handleQuantityChange = (id, newQuantity) => {
     setCartItems((prevItems) =>
       prevItems.map((item) =>
@@ -38,7 +38,7 @@ const CartSummary = () => {
     );
   };
 
-  // Function to handle item removal
+ 
   const handleRemove = (id) => {
     setCartItems((prevItems) => prevItems.filter((item) => item.id !== id));
   };
