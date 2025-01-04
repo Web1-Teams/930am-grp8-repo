@@ -1,0 +1,22 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "image": "https://nabtech.ps/wp-content/uploads/2024/10/I5-14600K-TRAY.jpg",
+        "title": "I5-14600K-TRAY",
+        "price": 1000
+      },
+      {
+        "id": 2,
+        "image": "https://nabtech.ps/wp-content/uploads/2024/09/GPU-GIGABYTE-AERO-RTX-4070-12GB-.jpg",
+        "title": "GPU-GIGABYTE-AERO-RTX-4070-12GB",
+        "price": 1150
+      },
+      {
+        "id": 3,
+        "image": "https://nabtech.ps/wp-content/uploads/2024/06/Meetion-MT-%E2%80%93-HP099-.jpg",
+        "title": "HEADSET MEETION MT HP099 7.1 SURROUND",
+        "price": 150
+      }
+    ]
+  }
