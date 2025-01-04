@@ -1,0 +1,25 @@
+.cart-summary {
+    width: 100%;
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+.cart-summary::-webkit-scrollbar {
+    height: 8px;
+}
+
+.cart-summary::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 4px;
+}
+
+.cart-summary::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-color);
+}

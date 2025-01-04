@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import CartSummary from './components/CartSummary/CartSummary';
+import ShippingForm from './components/ShippingForm/ShippingForm';
+import PaymentForm from './components/PaymentForm/PaymentForm';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-container">
+      <CartSummary />
+      <div className="forms-container">
+        <ShippingForm />
+        <PaymentForm />
+      </div>
     </div>
   );
-}
+};
 
 export default App;

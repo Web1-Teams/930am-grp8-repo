@@ -1,1 +1,49 @@
+.item-box {
+    flex: 0 0 auto;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    min-width: 300px;
+    align-items: center;
+    animation: slideIn 0.5s ease-out;
+    opacity: 0;
+}
+
+.item-box.animate-slide-in {
+    opacity: 1;
+}
+
+.item-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+
+.item-info {
+    flex: 1;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+    overflow: hidden;
+}
+
+.item-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-info p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: gold;
+}
 
