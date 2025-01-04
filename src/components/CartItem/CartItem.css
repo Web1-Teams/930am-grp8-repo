@@ -47,3 +47,51 @@
     color: gold;
 }
 
+.quantity-btn {
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.quantity-btn:hover {
+    background-color: var(--border-color);
+}
+
+.quantity-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.quantity-display {
+    font-size: 1rem;
+    font-weight: 500;
+    min-width: 20px;
+    text-align: center;
+}
+
+.remove-btn {
+    margin-left: auto;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 50%;
+    background: #fee2e2;
+    color: #ef4444;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.remove-btn:hover {
+    background: #fecaca;
+}
