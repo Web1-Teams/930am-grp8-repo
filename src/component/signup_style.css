@@ -1,0 +1,88 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('sign_in_back_ground.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 20px;
+}
+
+.sign-up-card {
+  background-color: rgba(149, 120, 51, 0.8);
+  padding: 2rem;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 20px;
+}
+
+.sign-up-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-group .icon {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #020202;
+  font-size: 1.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 15px 20px;
+  padding-left: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #d4a017;
+  background-color: #fff;
+}
+
+.sign-up-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #d4a017;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sign-up-btn:hover {
+  background-color: #a66b00;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.error-message {
+  color: #ff4d4d;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
