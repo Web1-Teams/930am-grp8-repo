@@ -1,4 +1,3 @@
-// src/components/ProductCard/ProductCard.jsx
 import React from 'react';
 import './ProductCard.css';
 
@@ -23,8 +22,9 @@ export const ProductCard = ({ product, isListView }) => {
           <p className="product-description">{description}</p>
         </div>
         <div className="price-container">
-          <del className="old-price">{oldPrice} ₪</del>
-          <span className="new-price">{newPrice} ₪</span>
+          <del className="old-price">{oldPrice}₪ </del>
+          
+          <span className="new-price">{newPrice}₪ </span>
         </div>
         <button className="buy-button" disabled={sold}>
           {sold ? 'تم البيع' : 'ADD TO CARD'}

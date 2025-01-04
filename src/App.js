@@ -5,17 +5,13 @@ import  products  from './data/products';
 import './App.css';
 
 const App = () => {
-  const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState('highest-price');
   const [hideSold, setHideSold] = useState(true);
   const [isListView, setIsListView] = useState(false);
 
   const filteredAndSortedProducts = useMemo(() => {
     let filtered = products.filter(
-      (product) =>
-        (product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          product.EnglishName.toLowerCase().includes(searchTerm.toLowerCase())) &&
-        (!hideSold || !product.sold)
+      (product) => !hideSold || !product.sold
     );
 
     switch (sortBy) {
@@ -34,7 +30,7 @@ const App = () => {
       default:
         return filtered;
     }
-  }, [searchTerm, sortBy, hideSold]);
+  }, [sortBy, hideSold]);
 
   return (
     <div dir="rtl">
@@ -46,7 +42,6 @@ const App = () => {
       <hr />
       <div className="container">
         <Controls
-          onSearch={setSearchTerm}
           onSort={setSortBy}
           onHideSold={setHideSold}
           onToggleView={() => setIsListView(!isListView)}

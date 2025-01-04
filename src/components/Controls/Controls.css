@@ -1,18 +1,91 @@
 .controls {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-    gap: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
   }
+  
+  .controls-section {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .controls select {
+    padding: 10px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .controls select:hover {
+    border-color: gold;
+  }
+  
+  .controls select:focus {
+    outline: none;
+    border-color: gold;
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.1);
+  }
+  
+  .controls label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+  }
+  
+  .controls input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .view-toggle {
+    background-color: var(--background-color);
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .view-toggle:hover {
+    background-color: gold;
+    color: black;
+    transform: translateY(-2px);
+  }
+  
   @media (max-width: 768px) {
     .controls {
       flex-direction: column;
-      align-items: stretch;
+      gap: 20px;
+      padding: 15px;
+    }
+  
+    .controls-section {
+      flex-direction: column;
+      width: 100%;
+      gap: 15px;
+    }
+  
+    .controls select {
+      width: 100%;
+    }
+  
+    .view-toggle {
+      width: 100%;
     }
   }
