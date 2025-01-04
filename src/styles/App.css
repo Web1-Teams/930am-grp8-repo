@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center; /* توسيط الفلتر أفقيًا */
+  max-width: 800px; /* تحديد الحد الأقصى لعرض الفلتر */
+  margin: 0 auto; /* توسيط الفلتر أفقياً */
+  padding: 22px;
+}
+
+.filter-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 100px;
+}
+
+#color-filter {
+  flex: 1;
+}
+
+.filter-btn {
+  background-color: #b4a16f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #877c5f;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+/* تنسيق للهواتف (عرض عمود واحد) */
+@media (max-width: 767px) {
+  .filter-section {
+      flex-direction: column;
+      align-items: stretch;
+  }
+  .filter-input {
+      width: 100%;
+  }
+ .product {
+     flex-basis: 100%; /* عرض المنتج بملء السطر في الهاتف */
+ }
+}
+
+/* تنسيق للحواسيب (عرض ثلاثة أعمدة) */
+@media (min-width: 768px) {
+  .product {
+      flex-basis: calc(33.333% - 20px); /* عرض المنتج في ثلاثة أعمدة */
+  }
+}
