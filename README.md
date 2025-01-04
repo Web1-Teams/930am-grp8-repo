@@ -74,7 +74,7 @@ http://localhost:3000
 ## screenshots ##
 ![frameslide](33_720.png)
 ![sales page](9cae2215-91d4-4da2-b050-ab39185f9353.png)
-![payment](Screenshot 2025-01-04 175249.png)
+![payment](Screenshot2025-01-04175249.png)
 ![product-page](img_20250103_175153_334_720.jpg)
 ## Trello Board
 
