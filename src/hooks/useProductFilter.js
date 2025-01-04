@@ -35,7 +35,7 @@ const useProductFilter = (initialProducts) => {
     };
 
     const clearFilters = () => {
-        setFilteredProducts(productsData); // Reset to all products
+        setFilteredProducts(productsData); 
     };
 
     return { filteredProducts, applyFilter, clearFilters, setProductsData };

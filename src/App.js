@@ -10,7 +10,6 @@ const App = () => {
             <div className="App">
                 <header>
                     <h1>متجر الكتروني</h1>
-                    {/* قائمة التنقل */}
                     <nav>
                         <ul>
                             <li>

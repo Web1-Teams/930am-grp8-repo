@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div>
             <ImageSlider />
-            {/* مكونات أخرى للصفحة الرئيسية */}
+            
         </div>
     );
 };

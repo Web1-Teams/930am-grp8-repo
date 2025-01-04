@@ -48,7 +48,7 @@ const ImageSlider = () => {
                             alt={image.alt}
                             className="image"
                         />
-                        <button className={`buy-now-button ${image.buttonClass}`}>شراء الآن</button>
+                        <button className={`buy-now-button ${image.buttonClass}`}>Buy Now</button>
                     </div>
                 ))}
             </div>

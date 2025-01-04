@@ -1,8 +1,7 @@
 import React from "react";
 import Filter from "../components/Filter";
 import ProductList from "../components/ProductList";
-import "../styles/App.css"; // تأكد من استيراد ملف CSS الأساسي
-
+import "../styles/App.css"; 
 const ProductsPage = () => {
     return (
         <div className="products-page">

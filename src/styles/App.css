@@ -14,9 +14,9 @@ h1 {
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
-  justify-content: center; /* توسيط الفلتر أفقيًا */
-  max-width: 800px; /* تحديد الحد الأقصى لعرض الفلتر */
-  margin: 0 auto; /* توسيط الفلتر أفقياً */
+  justify-content: center; 
+  max-width: 800px; 
+  margin: 0 auto; 
   padding: 22px;
 }
 
@@ -66,7 +66,7 @@ img {
   width: 150px;
   height: 150px;
 }
-/* تنسيق للهواتف (عرض عمود واحد) */
+
 @media (max-width: 767px) {
   .filter-section {
       flex-direction: column;
@@ -76,13 +76,13 @@ img {
       width: 100%;
   }
  .product {
-     flex-basis: 100%; /* عرض المنتج بملء السطر في الهاتف */
+     flex-basis: 100%; 
  }
 }
 
-/* تنسيق للحواسيب (عرض ثلاثة أعمدة) */
+
 @media (min-width: 768px) {
   .product {
-      flex-basis: calc(33.333% - 20px); /* عرض المنتج في ثلاثة أعمدة */
+      flex-basis: calc(33.333% - 20px); 
   }
 }
